@@ -25,8 +25,6 @@ internal object FlagsCategoryChunk0 {
     GoogleCompatEmoji(String(intArrayOf(0x1F38C), 0, 1), listOf("crossed_flags"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F3F4), 0, 1), listOf("waving_black_flag"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F3F3, 0xFE0F), 0, 2), listOf("waving_white_flag"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F3F3, 0xFE0F, 0x200D, 0x1F308), 0, 4), listOf("rainbow-flag"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F3F3, 0xFE0F, 0x200D, 0x26A7, 0xFE0F), 0, 5), listOf("transgender_flag"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F3F4, 0x200D, 0x2620, 0xFE0F), 0, 4), listOf("pirate_flag"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F1E6, 0x1F1E8), 0, 2), listOf("flag-ac"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F1E6, 0x1F1E9), 0, 2), listOf("flag-ad"), false),

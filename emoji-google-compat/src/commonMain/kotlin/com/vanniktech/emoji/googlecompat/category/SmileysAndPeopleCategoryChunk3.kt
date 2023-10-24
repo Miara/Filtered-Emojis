@@ -31,26 +31,6 @@ internal object SmileysAndPeopleCategoryChunk3 {
       ),
     ),
     GoogleCompatEmoji(
-      String(intArrayOf(0x1FAC3), 0, 1), listOf("pregnant_man"), false,
-      variants = listOf(
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC3, 0x1F3FB), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC3, 0x1F3FC), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC3, 0x1F3FD), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC3, 0x1F3FE), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC3, 0x1F3FF), 0, 2), emptyList<String>(), false),
-      ),
-    ),
-    GoogleCompatEmoji(
-      String(intArrayOf(0x1FAC4), 0, 1), listOf("pregnant_person"), false,
-      variants = listOf(
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC4, 0x1F3FB), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC4, 0x1F3FC), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC4, 0x1F3FD), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC4, 0x1F3FE), 0, 2), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1FAC4, 0x1F3FF), 0, 2), emptyList<String>(), false),
-      ),
-    ),
-    GoogleCompatEmoji(
       String(intArrayOf(0x1F931), 0, 1), listOf("breast-feeding"), false,
       variants = listOf(
         GoogleCompatEmoji(String(intArrayOf(0x1F931, 0x1F3FB), 0, 2), emptyList<String>(), false),
@@ -68,26 +48,6 @@ internal object SmileysAndPeopleCategoryChunk3 {
         GoogleCompatEmoji(String(intArrayOf(0x1F469, 0x1F3FD, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
         GoogleCompatEmoji(String(intArrayOf(0x1F469, 0x1F3FE, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
         GoogleCompatEmoji(String(intArrayOf(0x1F469, 0x1F3FF, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-      ),
-    ),
-    GoogleCompatEmoji(
-      String(intArrayOf(0x1F468, 0x200D, 0x1F37C), 0, 3), listOf("man_feeding_baby"), false,
-      variants = listOf(
-        GoogleCompatEmoji(String(intArrayOf(0x1F468, 0x1F3FB, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F468, 0x1F3FC, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F468, 0x1F3FD, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F468, 0x1F3FE, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F468, 0x1F3FF, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-      ),
-    ),
-    GoogleCompatEmoji(
-      String(intArrayOf(0x1F9D1, 0x200D, 0x1F37C), 0, 3), listOf("person_feeding_baby"), false,
-      variants = listOf(
-        GoogleCompatEmoji(String(intArrayOf(0x1F9D1, 0x1F3FB, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F9D1, 0x1F3FC, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F9D1, 0x1F3FD, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F9D1, 0x1F3FE, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
-        GoogleCompatEmoji(String(intArrayOf(0x1F9D1, 0x1F3FF, 0x200D, 0x1F37C), 0, 4), emptyList<String>(), false),
       ),
     ),
     GoogleCompatEmoji(
