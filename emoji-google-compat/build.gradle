@@ -6,10 +6,8 @@ plugins {
   id("me.tylerbwong.gradle.metalava")
   id("com.vanniktech.maven.publish")
   id("app.cash.licensee")
+  id("maven-publish")
 }
-
-group = 'com.github.Miara'
-artifactId = 'emoji-google-compat'
 
 licensee {
   allow("Apache-2.0")
@@ -84,4 +82,16 @@ android {
 
 dependencies {
   api project(':emoji')
+}
+
+afterEvaluate {
+  android.libraryVariants.each { variant ->
+    publishing.publications.create(variant.name, MavenPublication) {
+      from components.findByName(variant.name)
+
+      group = 'com.github.Miara'
+      artifactId = 'emoji-google-compat'
+      version = '1.7.0'
+    }
+  }
 }
