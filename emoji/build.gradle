@@ -84,16 +84,12 @@ android {
   }
 
   resourcePrefix 'emoji_'
-}
 
-afterEvaluate {
-  android.libraryVariants.each { variant ->
-    publishing.publications.create(variant.name, MavenPublication) {
-      from components.findByName(variant.name)
-
-      group = 'com.github.Miara'
-      artifactId = 'emoji'
-      version = '1.7.0'
+  publishing {
+    singleVariant("release") {
+      withSourcesJar()
+      withJavadocJar()
     }
   }
 }
+

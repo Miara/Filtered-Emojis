@@ -78,20 +78,15 @@ android {
   }
 
   resourcePrefix 'emoji_googlecompat_'
+
+  publishing {
+    singleVariant("release") {
+      withSourcesJar()
+      withJavadocJar()
+    }
+  }
 }
 
 dependencies {
   api project(':emoji')
-}
-
-afterEvaluate {
-  android.libraryVariants.each { variant ->
-    publishing.publications.create(variant.name, MavenPublication) {
-      from components.findByName(variant.name)
-
-      group = 'com.github.Miara'
-      artifactId = 'emoji-google-compat'
-      version = '1.7.0'
-    }
-  }
 }

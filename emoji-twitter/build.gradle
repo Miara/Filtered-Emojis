@@ -76,4 +76,11 @@ android {
   }
 
   resourcePrefix 'emoji_twitter_'
+
+  publishing {
+    singleVariant("release") {
+      withSourcesJar()
+      withJavadocJar()
+    }
+  }
 }

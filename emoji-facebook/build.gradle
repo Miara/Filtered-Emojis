@@ -76,4 +76,11 @@ android {
   }
 
   resourcePrefix 'emoji_facebook_'
+
+  publishing {
+    singleVariant("release") {
+      withSourcesJar()
+      withJavadocJar()
+    }
+  }
 }

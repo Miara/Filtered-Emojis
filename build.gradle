@@ -3,6 +3,8 @@ buildscript {
     mavenCentral()
     google()
     gradlePluginPortal()
+
+    maven { url 'https://plugins.gradle.org/m2/' }
   }
   dependencies {
     classpath(libs.plugin.android.cache.fix)
@@ -48,6 +50,8 @@ allprojects {
   repositories {
     google()
     mavenCentral()
+    mavenLocal()
+    maven { url 'https://plugins.gradle.org/m2/' }
     maven { url 'https://jitpack.io'}
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
     gradlePluginPortal()
@@ -62,6 +66,33 @@ subprojects {
   project.tasks.withType(Test) {
     testLogging {
       testLogging.exceptionFormat = 'full'
+    }
+  }
+
+
+}
+
+
+configure(subprojects) { subproject ->
+
+  plugins.withType(MavenPublishPlugin) {
+    afterEvaluate {
+      publishing {
+        publications {
+          maven(MavenPublication) {
+            if (plugins.hasPlugin(JavaLibraryPlugin)) {
+              from components.java
+            } else {
+              from components.release // should be defined in android lib gradle
+            }
+
+
+            groupId = 'com.vanniktech.miara'
+            artifactId = subproject.name
+            version = "0.18.0"
+          }
+        }
+      }
     }
   }
 }

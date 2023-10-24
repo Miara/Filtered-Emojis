@@ -76,4 +76,11 @@ android {
   }
 
   resourcePrefix 'emoji_google_'
+
+  publishing {
+    singleVariant("release") {
+      withSourcesJar()
+      withJavadocJar()
+    }
+  }
 }
