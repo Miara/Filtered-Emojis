@@ -8,6 +8,9 @@ plugins {
   id("app.cash.licensee")
 }
 
+group = 'com.github.Miara'
+artifactId = 'emoji'
+
 licensee {
   allow("Apache-2.0")
 }
