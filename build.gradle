@@ -1,9 +1,9 @@
 buildscript {
   repositories {
+    mavenLocal()
     mavenCentral()
     google()
     gradlePluginPortal()
-
     maven { url 'https://plugins.gradle.org/m2/' }
   }
   dependencies {
@@ -89,7 +89,16 @@ configure(subprojects) { subproject ->
 
             groupId = 'com.vanniktech.miara'
             artifactId = subproject.name
-            version = "0.18.0"
+            version = "0.18.0-filtered"
+          }
+        }
+        repositories {
+          maven {
+            credentials {
+              username "name"
+              password "pass"
+            }
+            url = uri("https://repo.repsy.io/mvn/kcsiemanko/kcrepo")
           }
         }
       }
