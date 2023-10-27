@@ -20,7 +20,6 @@ import com.vanniktech.emoji.googlecompat.GoogleCompatEmoji
 
 internal object ActivitiesCategoryChunk0 {
   internal val EMOJIS: List<GoogleCompatEmoji> = listOf(
-    GoogleCompatEmoji(String(intArrayOf(0x1F383), 0, 1), listOf("jack_o_lantern"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F384), 0, 1), listOf("christmas_tree"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F386), 0, 1), listOf("fireworks"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F387), 0, 1), listOf("sparkler"), false),
@@ -31,11 +30,6 @@ internal object ActivitiesCategoryChunk0 {
     GoogleCompatEmoji(String(intArrayOf(0x1F38A), 0, 1), listOf("confetti_ball"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F38B), 0, 1), listOf("tanabata_tree"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F38D), 0, 1), listOf("bamboo"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F38E), 0, 1), listOf("dolls"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F38F), 0, 1), listOf("flags"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F390), 0, 1), listOf("wind_chime"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F391), 0, 1), listOf("rice_scene"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F9E7), 0, 1), listOf("red_envelope"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F380), 0, 1), listOf("ribbon"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F381), 0, 1), listOf("gift"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F397, 0xFE0F), 0, 2), listOf("reminder_ribbon"), false),
@@ -83,7 +77,6 @@ internal object ActivitiesCategoryChunk0 {
     GoogleCompatEmoji(String(intArrayOf(0x1FA84), 0, 1), listOf("magic_wand"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F3AE), 0, 1), listOf("video_game"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F579, 0xFE0F), 0, 2), listOf("joystick"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F3B0), 0, 1), listOf("slot_machine"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F3B2), 0, 1), listOf("game_die"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F9E9), 0, 1), listOf("jigsaw"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F9F8), 0, 1), listOf("teddy_bear"), false),

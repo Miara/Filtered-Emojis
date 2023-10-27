@@ -54,6 +54,7 @@ allprojects {
     maven { url 'https://plugins.gradle.org/m2/' }
     maven { url 'https://jitpack.io'}
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://repo.repsy.io/mvn/kcsiemanko/kcrepo' }
     gradlePluginPortal()
   }
 }
@@ -89,7 +90,7 @@ configure(subprojects) { subproject ->
 
             groupId = 'com.vanniktech.miara'
             artifactId = subproject.name
-            version = "0.18.0-filtered"
+            version = "0.18.0-filtered-v2"
           }
         }
         repositories {

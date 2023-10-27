@@ -67,8 +67,8 @@ dependencies {
 //  implementation project(':emoji')
 //  implementation project(':emoji-google-compat')
 
-  api "com.vanniktech.miara:emoji:0.18.0-v2"
-  api "com.vanniktech.miara:emoji-google-compat:0.18.0-v2"
+  api "com.vanniktech.miara:emoji:0.18.0-filtered-v2"
+  api "com.vanniktech.miara:emoji-google-compat:0.18.0-filtered-v2"
   implementation libs.androidx.emoji.appcompat
   implementation libs.timber
 }

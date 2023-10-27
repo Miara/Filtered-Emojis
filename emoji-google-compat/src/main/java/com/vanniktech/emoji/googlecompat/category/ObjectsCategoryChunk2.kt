@@ -36,8 +36,6 @@ internal object ObjectsCategoryChunk2 {
     GoogleCompatEmoji(String(intArrayOf(0x26B0, 0xFE0F), 0, 2), listOf("coffin"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1FAA6), 0, 1), listOf("headstone"), false),
     GoogleCompatEmoji(String(intArrayOf(0x26B1, 0xFE0F), 0, 2), listOf("funeral_urn"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F9FF), 0, 1), listOf("nazar_amulet"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1FAAC), 0, 1), listOf("hamsa"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F5FF), 0, 1), listOf("moyai"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1FAA7), 0, 1), listOf("placard"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1FAAA), 0, 1), listOf("identification_card"), false),

@@ -122,7 +122,6 @@ internal object SmileysAndPeopleCategoryChunk0 {
     GoogleCompatEmoji(String(intArrayOf(0x1F624), 0, 1), listOf("triumph"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F621), 0, 1), listOf("rage"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F620), 0, 1), listOf("angry"), false),
-    GoogleCompatEmoji(String(intArrayOf(0x1F92C), 0, 1), listOf("face_with_symbols_on_mouth", "serious_face_with_symbols_covering_mouth"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F4A9), 0, 1), listOf("hankey", "poop", "shit"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F916), 0, 1), listOf("robot_face"), false),
     GoogleCompatEmoji(String(intArrayOf(0x1F63A), 0, 1), listOf("smiley_cat"), false),
